@@ -1,0 +1,243 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+#head {
+    width: 100%;
+    background-size: cover;
+	background-image: url("../images/hero.jpg") ;
+    height: 800px;
+ }
+ .width-1100{
+ 	width: 1100px;
+/* 	height: 500px;
+*/ 	margin:0 auto;
+
+ }
+ .floatL{
+ 	float: left;
+ }
+ .floatR{
+ 	float: right;
+ }
+ .headUl .menu{
+ 	width: 50%;
+ 	display: inline-block;
+ }
+ .headUl img{
+ margin-top:30px;
+ }
+/*
+.menu div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 2px;
+}*/
+.menu i{
+margin-top: 30px;
+
+}
+/*.headMd {
+width: 100px;
+	height: 100px;
+}*/
+.menu{
+	color: white;
+}
+.fixed {
+  
+    width: 80%;
+    padding-top:  30% ;
+   
+ }
+
+.button1{
+	padding: 20px 50px;
+	background: white;
+border:1px solid transparent;
+
+	}
+.button2{
+	
+	padding: 20px 65px;
+	margin-left: 8px;
+/*	border-style: white;
+*/	border:1px solid white;
+
+}
+.headM h1{
+	color: white;
+}
+.button1  a{
+	text-decoration: none;
+	color: #72D0D9;
+}
+.button2  a{
+	text-decoration: none;
+	color: white;
+}
+.videoI{
+	width: 60px;
+/*	height: 60px;
+*//*	margin:0px auto;
+*/}
+.videoI img{
+	width: 100%;
+}
+
+.watch{
+	
+	margin-left: 10px;
+}
+
+.center{
+	width: 300px;
+	height: 60px;
+	margin : 50px auto;
+}
+.watch p{
+	font-size: 23px;
+}
+.backgroundd{
+	width: 50%;
+	height: 400px;
+	background-size: cover;
+	background-image: url("../images/features-intro.jpg") ;
+   
+	/*background: blue;*/
+}
+.background{
+	width: 50%;
+	height: 400px;
+	background: #3F6184;
+	background-size: cover;
+	/*background-image: url("../images/features-intro.jpg") ;*/
+}
+.backgroundd img{
+margin-left: 50% ;
+margin-top: 20% ;
+}
+.background h1{
+	color: white;
+	text-align: center;
+	margin-top:30px;
+}
+.background p{
+	color: white;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.logoyazi{
+	width: 300px;
+}
+.logos{
+	margin:50px 0;
+}
+.logoyazi p{
+ margin-left: 10px;
+}
+.logoyazi h3{
+ margin-left: 10px;
+}
+#showcase{
+	width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+	background-image: url("../images/showcase-bg-fixed-01.jpg") ;
+    height: 600px;
+
+}
+.iphone img{
+	margin-top: 40px;
+}
+.iphoneR{
+	width: 50%;
+	margin-top: 50px;
+}
+.iphoneR p {
+	line-height: 2;
+	color: white;
+}
+.iphoneR h2 {
+	line-height: 2;
+	color: white;
+}
+.iphoneR blockquote {
+/*	line-height: 2;
+*/	color: white;
+/*margin-top: s;
+*/}
+.iphoneR img {
+/*	line-height: 2;
+*/	margin:10px;
+}
+.iphoneR button{
+	padding: 30px 55px;
+  border-style: solid;
+    border-color: white;
+    background-color: Transparent;
+    color: white;
+ 
+}
+#packed{
+	height: 250px;
+}
+#packed .width-1100 h1{
+	margin-top:100px;
+
+}
+#packed .width-1100 a{
+	text-decoration: none;
+color:#73D0DA; 
+}
+#packed .width-1100 p{
+color: grey;
+}
+#images {
+	height: 450px;
+}
+#images .galleryItems  li{
+	float:left;
+	margin:0;
+	padding: 0;
+}
+#images .Items ul li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	margin:0;
+	padding: 0;
+	height: auto;
+	
+}
+#images .Items img{
+	width: 100%;
+    height: 100%;
+}
+#seen{
+	width:100%;
+	height: 300px; 
+	background: #2B5680;
+}
+#seen .width-1100 h1{
+	margin:0;
+	padding: 9%;
+	text-align: center;
+
+}
+#seen .width-1100 button{
+	margin-left: 45%;
+
+	padding: 30px 55px;
+  border-style: solid;
+    border-color: white;
+    background-color: Transparent;
+    color: white;
+ 
+}
