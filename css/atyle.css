@@ -1,0 +1,36 @@
+#images {
+	width:100%; 
+	height: 510px;
+}
+
+/*.Items{
+	width: 2000px;
+}*/
+/*#images .galleryItems  li{
+	float:left;
+	margin:0;
+	padding: 0;
+}*/
+/*.Items{
+	width: 400px;
+}*/
+/*.items>div{
+	margin:0;
+	padding: 0;
+}*/
+#images .items ul li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	margin:0;
+	padding: 0;
+/*min-height: 100%;*/	
+}
+#images .items ul {
+display: block;
+
+}
+#images .items img{
+	/*width: 25%;*/
+   /* height: 100%;*/
+}

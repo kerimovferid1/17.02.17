@@ -199,31 +199,52 @@ color:#73D0DA;
 #packed .width-1100 p{
 color: grey;
 }
+
+
 #images {
-	height: 450px;
+	width:100%; 
+	height: 510px;
+	/*margin-left: -30px;*/
 }
-#images .galleryItems  li{
+
+/*.Items{
+	width: 2000px;
+}*/
+/*#images .galleryItems  li{
 	float:left;
 	margin:0;
 	padding: 0;
-}
-#images .Items ul li{
+}*/
+/*.Items{
+	width: 400px;
+}*/
+/*.items>div{
+	margin:0;
+	padding: 0;
+}*/
+#images .items ul li{
 	list-style: none;
 	float: left;
 	width: 25%;
 	margin:0;
 	padding: 0;
-	height: auto;
-	
+/*min-height: 100%;*/	
 }
-#images .Items img{
+#images .items ul {
+display: block;
+margin-left: -30px;
+
+}
+#images .items img{
 	width: 100%;
-    height: 100%;
+   /* height: 100%;*/
 }
+
+
 #seen{
 	width:100%;
-	height: 300px; 
-	background: #2B5680;
+/*	height: 300px; 
+*/	background: #2B5680;
 }
 #seen .width-1100 h1{
 	margin:0;
@@ -232,12 +253,35 @@ color: grey;
 
 }
 #seen .width-1100 button{
-	margin-left: 45%;
-
+	margin-left: 40%;
+	margin-bottom: 20px;
 	padding: 30px 55px;
-  border-style: solid;
+  	border-style: solid;
     border-color: white;
     background-color: Transparent;
     color: white;
  
+}
+#seen h1{
+	color: white;
+}
+#footer{
+	width: 100%;
+	height:150px; 
+	/*background: red;*/
+}
+#footer ul{
+	list-style: none;
+float: right;
+}
+#footer ul li{
+	/*color: black;*/
+/*	list-style: none;
+*/float: right;
+margin-right: 30px;
+margin-top: 60px; 
+}
+#footer img{
+float: left;
+margin-top: 70px;
 }
